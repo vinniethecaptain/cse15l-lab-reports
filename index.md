@@ -10,9 +10,9 @@ After opening Visual Studio Code, your screen should look like the image above.
 
 ## Remote Connect and Git
 
-In order to remotely connect to a UCSD computer, start by downloading Git from https://gitforwindows.org/. Next, go to your VS Code and hit ctrl + or press new terminal in the top left. Open the command palette using `Ctrl + Shift + P` and type Select Default Profile in the command bar. After doing so, select Git Bash and then press the + icon in the top right of the terminal window. When you're using the bash terminal, type `ssh cs15lwi23zz@ieng6.ucsd.edu` but make sure to replace the zz with the letters in your course-specific account.
+In order to remotely connect to a UCSD computer, start by downloading Git from https://gitforwindows.org/. Next, go to your VS Code and hit `Ctrl + \(')` or press "New Terminal" in the drop down menu from the "Terminal" button in the top left. Open the command palette using `Ctrl + Shift + P` and type "Select Default Profile" in the command bar. After doing so, select "Git Bash" and then press the "+" icon in the top right of the terminal window. When you're using the bash terminal, type `ssh cs15lwi23zz@ieng6.ucsd.edu` but make sure to replace the zz with the letters in your course-specific account.
 
-Once that is completed, you will to answer a few questions and enter in your password. With that, your screen should look like this below.
+Once that is completed, you will need to answer a few questions and enter in your password. With that, your screen should look like this below.
 
 ![image](https://user-images.githubusercontent.com/122580604/212227927-a90da544-92de-40b5-a82f-d13fce05bf79.png)
 
