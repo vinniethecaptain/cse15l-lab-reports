@@ -1,4 +1,4 @@
-# How to Become an Elite CSE 15L Student
+# How to Become an Elite CSE 15L Student [Lab Report 1]
 ## VS Code 
 
 Start by heading on over to https://code.visualstudio.com/download in order to download Visual Studio Code. Make sure to pick Windows if you are on Windows.
@@ -10,6 +10,6 @@ After opening Visual Studio Code, your screen should look like the image above.
 
 ## Remote Connect and Git
 
-In order to remotely connect to a UCSD computer, start by downloading Git from https://gitforwindows.org/. Next, go to your VS Code and hit ctrl + ` or press new terminal in the top left. 
+In order to remotely connect to a UCSD computer, start by downloading Git from https://gitforwindows.org/. Next, go to your VS Code and hit ctrl + ` or press new terminal in the top left. Open the command palette using Ctrl + Shift + P and type Select Default Profile in the command bar. After doing so, select Git Bash and then press the + icon in the top right of the terminal window. When you're using the bash terminal, type `ssh ``
 
 
