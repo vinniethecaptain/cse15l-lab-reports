@@ -10,7 +10,7 @@ After opening Visual Studio Code, your screen should look like the image above.
 
 ## Remote Connect and Git
 
-In order to remotely connect to a UCSD computer, start by downloading Git from https://gitforwindows.org/. Next, go to your VS Code and hit `Ctrl + \(')` or press "New Terminal" in the drop down menu from the "Terminal" button in the top left. Open the command palette using `Ctrl + Shift + P` and type "Select Default Profile" in the command bar. After doing so, select "Git Bash" and then press the "+" icon in the top right of the terminal window. When you're using the bash terminal, type `ssh cs15lwi23zz@ieng6.ucsd.edu` but make sure to replace the zz with the letters in your course-specific account.
+In order to remotely connect to a UCSD computer, start by downloading Git from https://gitforwindows.org/. Next, go to your VS Code and hit `Ctrl + \(')` or press "New Terminal" in the drop down menu from the "Terminal" button in the top left. Open the command palette using `Ctrl + Shift + P` and type "Select Default Profile" in the command bar. After doing so, select "Git Bash" and then press the "+" icon in the top right of the terminal window. This is where you can start logging in to access your remote server. When you're using the bash terminal, type `ssh cs15lwi23zz@ieng6.ucsd.edu` but make sure to replace the zz with the letters in your course-specific account. Finally, enter your account's password and then you're in!
 
 Once that is completed, you will need to answer a few questions and enter in your password. With that, your screen should look like this below.
 
@@ -19,9 +19,9 @@ Once that is completed, you will need to answer a few questions and enter in you
 ## Running Terminal Commands
 
 Now you're done! Try any of these commands to navigate the file directories of the remote desktop:
-- cd 
-- ls
-- pwd
-- cat
+- cd (used to change the current file directory you are viewing)
+- ls (used to list all the contents in the current directory)
+- pwd (prints the path of the working directory)
+- cat (used to read files and print the concatenated contents of the files) 
 
 To log out of the remote server, hit `Ctrl + D` and run the command exit. Good job!
