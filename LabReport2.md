@@ -73,7 +73,7 @@ public void testReverseInPlace() {
 ![](https://media.discordapp.net/attachments/766148831594545153/1068375808768479232/image.png?width=1440&height=390)
 
 ##### The bug with before and after fixes #####
-#### Before ####
+###### Before ######
 ```
 static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length; i += 1) {
@@ -81,7 +81,7 @@ static void reverseInPlace(int[] arr) {
     }
 }
 ```
-#### After ####
+###### After ######
 ```
 static void reverseInPlace(int[] arr) {
     int[] reversedArr = new int[arr.length];
