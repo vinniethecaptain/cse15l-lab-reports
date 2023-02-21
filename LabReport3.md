@@ -5,6 +5,8 @@
 Using the -r option allows the terminal to recursively search through all directories for text files that contain the specified pattern.
 (Source: grep --help)
 
+For example, if you are trying to look for a certain text file containing a specific word in a directory with dozens of subdirectories, using the -r option will help you search through every single directory and text file for a text file containing the word. If I wanted to travel to the Bahamas, I could use `grep -r "Bahamas" written_2/` to pull up any relevant text files containing the word Bahamas.
+
 ``` 
 $ grep -r "Lucayans" written_2/
 written_2/travel_guides/berlitz2/Bahamas-History.txt:Centuries before the arrival of Columbus, a peaceful Amerindian people who called themselves the Luccucairi had settled in the Bahamas. Originally from South America, they had traveled up through the Caribbean islands, surviving by cultivating modest crops and from what they caught from sea and shore. Nothing in the experience of these gentle people could have prepared them for the arrival of the Pinta, the Niña, and 
@@ -21,6 +23,8 @@ written_2/travel_guides/berlitz1/IntroEgypt.txt:        fantasies. Today, “pse
 
 Using the -c option allows the terminal return the number of times a certain specified pattern appears in a text file.
 (Source: grep --help and ChatGPT)
+
+Since grep -c can be used to find how many times a certain string pattern is repeated in a text file, it can be used to check important information such as errors or warnings in a text file that is meant to log all of the errors a program may cause. It could also be useful for data colelction as you can count up how many times a certain word or phrase is repeated in a text file.
 
 ```
 $ grep -c "Lucayans" written_2/travel_guides/berlitz2/*.txt
@@ -116,6 +120,8 @@ written_2/non-fiction/OUP/Berk/ch7.txt:0
 Using the -n option allows the terminal return the specific lines that contain the specified pattern with their corresponding line numbers.
 (Source: grep --help)
 
+grep -n can be used for quickly reading relevant parts of a text that you don't want to read in full. For example, if I had an autobiography text file about a famous person, I could obtain all the lines about their family if I wished to only read relevant information about the famous person's family.
+
 ```
 $ grep -n "Bond Stores" written_2/non-fiction/OUP/Abernathy/ch1.txt
 5:In the late 1940s, Bond Stores, the largest men’s clothing chain at the time, created a sensation in New York City by offering a wide selection of suits with two pairs of pants instead of one, reintroducing a level of product choice not seen since before the war.1 When the line of hopeful buyers at its Times Square store stretched around the block, Bond had to impose a limit of two suits per customer. During World War II, the apparel and textile industries had been converted to supply field jackets, overcoats, and uniforms to the U.S. and Allied Forces. But in the years immediately following the war, returning soldiers, the end of rationing, and pent-up customer demand meant apparel was in short supply.
@@ -140,6 +146,8 @@ and, taking each other’s hands, they dance around the room with him, singing,
 ### grep -i ###
 Using the -i option allows the terminal return all the lines that contains the specified pattern while ignoring lowercases and uppercases.
 (Source: grep --help)
+
+grep -i is useful for finding strings that have all variations of uppercases and lowercases. If you wanted to find obtain all the lines containing `el abuelo`, the terminal would only return lines containing exactly `el abuelo`. Using the flag -i can be used to circumvent all the case scenarios to find every single string containing `el abuelo` even if it is all uppercase.
 
 ```
 $ grep -i "el abuelo" written_2/non-fiction/OUP/Castro/chA.txt
